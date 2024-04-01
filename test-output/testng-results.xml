@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="4" ignored="0" total="14" passed="8" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-01T15:45:27 IST" name="BookShellSuite" finished-at="2024-04-01T15:47:48 IST" duration-ms="141726">
+    <groups>
+    </groups>
+    <test started-at="2024-04-01T15:45:27 IST" name="Test" finished-at="2024-04-01T15:47:48 IST" duration-ms="141726">
+      <class name="com.testCases.TC_002_RegistrationTest">
+        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:com.testCases.TC_002_RegistrationTest@38afe297]" started-at="2024-04-01T15:46:17 IST" name="setUpBrowser" finished-at="2024-04-01T15:46:23 IST" duration-ms="6283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method signature="testRegistrationPageWithValideData()[pri:1, instance:com.testCases.TC_002_RegistrationTest@38afe297]" started-at="2024-04-01T15:46:23 IST" name="testRegistrationPageWithValideData" finished-at="2024-04-01T15:46:25 IST" duration-ms="1653" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistrationPageWithValideData -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.testCases.TC_002_RegistrationTest@38afe297]" started-at="2024-04-01T15:46:25 IST" name="closeBrowser" finished-at="2024-04-01T15:46:25 IST" duration-ms="189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:com.testCases.TC_002_RegistrationTest@38afe297]" started-at="2024-04-01T15:46:25 IST" name="setUpBrowser" finished-at="2024-04-01T15:46:32 IST" duration-ms="6833" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method retried="true" signature="testRegistrationWithInvalidData()[pri:2, instance:com.testCases.TC_002_RegistrationTest@38afe297]" started-at="2024-04-01T15:46:32 IST" name="testRegistrationWithInvalidData" finished-at="2024-04-01T15:46:33 IST" duration-ms="1611" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [true] but found [false]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at com.testCases.TC_002_RegistrationTest.testRegistrationWithInvalidData(TC_002_RegistrationTest.java:97)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistrationWithInvalidData -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.testCases.TC_002_RegistrationTest@38afe297]" started-at="2024-04-01T15:46:33 IST" name="closeBrowser" finished-at="2024-04-01T15:46:34 IST" duration-ms="256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:com.testCases.TC_002_RegistrationTest@38afe297]" started-at="2024-04-01T15:46:34 IST" name="setUpBrowser" finished-at="2024-04-01T15:46:42 IST" duration-ms="7917" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method retried="true" signature="testRegistrationWithInvalidData()[pri:2, instance:com.testCases.TC_002_RegistrationTest@38afe297]" started-at="2024-04-01T15:46:42 IST" name="testRegistrationWithInvalidData" finished-at="2024-04-01T15:46:43 IST" duration-ms="1738" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [true] but found [false]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at com.testCases.TC_002_RegistrationTest.testRegistrationWithInvalidData(TC_002_RegistrationTest.java:97)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistrationWithInvalidData -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.testCases.TC_002_RegistrationTest@38afe297]" started-at="2024-04-01T15:46:43 IST" name="closeBrowser" finished-at="2024-04-01T15:46:44 IST" duration-ms="247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:com.testCases.TC_002_RegistrationTest@38afe297]" started-at="2024-04-01T15:46:44 IST" name="setUpBrowser" finished-at="2024-04-01T15:46:49 IST" duration-ms="5870" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method signature="testRegistrationWithInvalidData()[pri:2, instance:com.testCases.TC_002_RegistrationTest@38afe297]" started-at="2024-04-01T15:46:49 IST" name="testRegistrationWithInvalidData" finished-at="2024-04-01T15:46:51 IST" duration-ms="1538" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [true] but found [false]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at com.testCases.TC_002_RegistrationTest.testRegistrationWithInvalidData(TC_002_RegistrationTest.java:97)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistrationWithInvalidData -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.testCases.TC_002_RegistrationTest@38afe297]" started-at="2024-04-01T15:46:51 IST" name="closeBrowser" finished-at="2024-04-01T15:46:51 IST" duration-ms="238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.testCases.TC_002_RegistrationTest -->
+      <class name="com.testCases.TC_001_LoginTest">
+        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:com.testCases.TC_001_LoginTest@3c9754d8]" started-at="2024-04-01T15:45:27 IST" name="setUpBrowser" finished-at="2024-04-01T15:45:45 IST" duration-ms="18719" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method signature="testLoginWithValidData()[pri:1, instance:com.testCases.TC_001_LoginTest@3c9754d8]" started-at="2024-04-01T15:45:45 IST" name="testLoginWithValidData" finished-at="2024-04-01T15:45:46 IST" duration-ms="1042" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithValidData -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.testCases.TC_001_LoginTest@3c9754d8]" started-at="2024-04-01T15:45:46 IST" name="closeBrowser" finished-at="2024-04-01T15:45:47 IST" duration-ms="287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:com.testCases.TC_001_LoginTest@3c9754d8]" started-at="2024-04-01T15:45:47 IST" name="setUpBrowser" finished-at="2024-04-01T15:45:54 IST" duration-ms="7581" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method retried="true" signature="testLoginWithInvalidData()[pri:2, instance:com.testCases.TC_001_LoginTest@3c9754d8]" started-at="2024-04-01T15:45:54 IST" name="testLoginWithInvalidData" finished-at="2024-04-01T15:45:55 IST" duration-ms="1056" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [true] but found [false]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at com.testCases.TC_001_LoginTest.testLoginWithInvalidData(TC_001_LoginTest.java:67)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithInvalidData -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.testCases.TC_001_LoginTest@3c9754d8]" started-at="2024-04-01T15:45:55 IST" name="closeBrowser" finished-at="2024-04-01T15:45:56 IST" duration-ms="256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:com.testCases.TC_001_LoginTest@3c9754d8]" started-at="2024-04-01T15:45:56 IST" name="setUpBrowser" finished-at="2024-04-01T15:46:05 IST" duration-ms="9768" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method retried="true" signature="testLoginWithInvalidData()[pri:2, instance:com.testCases.TC_001_LoginTest@3c9754d8]" started-at="2024-04-01T15:46:05 IST" name="testLoginWithInvalidData" finished-at="2024-04-01T15:46:06 IST" duration-ms="823" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [true] but found [false]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at com.testCases.TC_001_LoginTest.testLoginWithInvalidData(TC_001_LoginTest.java:67)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithInvalidData -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.testCases.TC_001_LoginTest@3c9754d8]" started-at="2024-04-01T15:46:06 IST" name="closeBrowser" finished-at="2024-04-01T15:46:06 IST" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:com.testCases.TC_001_LoginTest@3c9754d8]" started-at="2024-04-01T15:46:06 IST" name="setUpBrowser" finished-at="2024-04-01T15:46:16 IST" duration-ms="9538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method signature="testLoginWithInvalidData()[pri:2, instance:com.testCases.TC_001_LoginTest@3c9754d8]" started-at="2024-04-01T15:46:16 IST" name="testLoginWithInvalidData" finished-at="2024-04-01T15:46:17 IST" duration-ms="751" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [true] but found [false]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at com.testCases.TC_001_LoginTest.testLoginWithInvalidData(TC_001_LoginTest.java:67)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithInvalidData -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.testCases.TC_001_LoginTest@3c9754d8]" started-at="2024-04-01T15:46:17 IST" name="closeBrowser" finished-at="2024-04-01T15:46:17 IST" duration-ms="193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.testCases.TC_001_LoginTest -->
+      <class name="com.testCases.TC_003_SearchItem_addCart">
+        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:com.testCases.TC_003_SearchItem_addCart@2df3b89c]" started-at="2024-04-01T15:46:51 IST" name="setUpBrowser" finished-at="2024-04-01T15:47:01 IST" duration-ms="9877" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method signature="searchItemAndToCart(java.lang.String)[pri:0, instance:com.testCases.TC_003_SearchItem_addCart@2df3b89c]" started-at="2024-04-01T15:47:01 IST" name="searchItemAndToCart" data-provider="Book List" finished-at="2024-04-01T15:47:04 IST" duration-ms="2483" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dr. Strange Beard]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchItemAndToCart -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.testCases.TC_003_SearchItem_addCart@2df3b89c]" started-at="2024-04-01T15:47:04 IST" name="closeBrowser" finished-at="2024-04-01T15:47:04 IST" duration-ms="269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:com.testCases.TC_003_SearchItem_addCart@2df3b89c]" started-at="2024-04-01T15:47:04 IST" name="setUpBrowser" finished-at="2024-04-01T15:47:11 IST" duration-ms="7290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method signature="searchItemAndToCart(java.lang.String)[pri:0, instance:com.testCases.TC_003_SearchItem_addCart@2df3b89c]" started-at="2024-04-01T15:47:11 IST" name="searchItemAndToCart" data-provider="Book List" finished-at="2024-04-01T15:47:13 IST" duration-ms="1985" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mrs. everything]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchItemAndToCart -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.testCases.TC_003_SearchItem_addCart@2df3b89c]" started-at="2024-04-01T15:47:13 IST" name="closeBrowser" finished-at="2024-04-01T15:47:13 IST" duration-ms="260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:com.testCases.TC_003_SearchItem_addCart@2df3b89c]" started-at="2024-04-01T15:47:13 IST" name="setUpBrowser" finished-at="2024-04-01T15:47:21 IST" duration-ms="7300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method signature="searchItemAndToCart(java.lang.String)[pri:0, instance:com.testCases.TC_003_SearchItem_addCart@2df3b89c]" started-at="2024-04-01T15:47:21 IST" name="searchItemAndToCart" data-provider="Book List" finished-at="2024-04-01T15:47:22 IST" duration-ms="1745" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Slayer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchItemAndToCart -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.testCases.TC_003_SearchItem_addCart@2df3b89c]" started-at="2024-04-01T15:47:22 IST" name="closeBrowser" finished-at="2024-04-01T15:47:23 IST" duration-ms="309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:com.testCases.TC_003_SearchItem_addCart@2df3b89c]" started-at="2024-04-01T15:47:23 IST" name="setUpBrowser" finished-at="2024-04-01T15:47:29 IST" duration-ms="6225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method signature="searchItemAndToCart(java.lang.String)[pri:0, instance:com.testCases.TC_003_SearchItem_addCart@2df3b89c]" started-at="2024-04-01T15:47:29 IST" name="searchItemAndToCart" data-provider="Book List" finished-at="2024-04-01T15:47:31 IST" duration-ms="1811" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[The Chosen]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchItemAndToCart -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.testCases.TC_003_SearchItem_addCart@2df3b89c]" started-at="2024-04-01T15:47:31 IST" name="closeBrowser" finished-at="2024-04-01T15:47:31 IST" duration-ms="227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:com.testCases.TC_003_SearchItem_addCart@2df3b89c]" started-at="2024-04-01T15:47:31 IST" name="setUpBrowser" finished-at="2024-04-01T15:47:38 IST" duration-ms="6913" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method signature="searchItemAndToCart(java.lang.String)[pri:0, instance:com.testCases.TC_003_SearchItem_addCart@2df3b89c]" started-at="2024-04-01T15:47:38 IST" name="searchItemAndToCart" data-provider="Book List" finished-at="2024-04-01T15:47:40 IST" duration-ms="1812" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Birthday Girl]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchItemAndToCart -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.testCases.TC_003_SearchItem_addCart@2df3b89c]" started-at="2024-04-01T15:47:40 IST" name="closeBrowser" finished-at="2024-04-01T15:47:40 IST" duration-ms="241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:com.testCases.TC_003_SearchItem_addCart@2df3b89c]" started-at="2024-04-01T15:47:40 IST" name="setUpBrowser" finished-at="2024-04-01T15:47:46 IST" duration-ms="6178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method signature="searchItemAndToCart(java.lang.String)[pri:0, instance:com.testCases.TC_003_SearchItem_addCart@2df3b89c]" started-at="2024-04-01T15:47:46 IST" name="searchItemAndToCart" data-provider="Book List" finished-at="2024-04-01T15:47:48 IST" duration-ms="1897" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[The Simple Wild]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchItemAndToCart -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.testCases.TC_003_SearchItem_addCart@2df3b89c]" started-at="2024-04-01T15:47:48 IST" name="closeBrowser" finished-at="2024-04-01T15:47:48 IST" duration-ms="205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.testCases.TC_003_SearchItem_addCart -->
+    </test> <!-- Test -->
+  </suite> <!-- BookShellSuite -->
+</testng-results>
